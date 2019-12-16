@@ -30,23 +30,28 @@ database sql file<br/>
 laravel project files
 
 ## Database Migrations Location
- src/database/migrations
+ src/public/database/migrations
 
 ## Database Seeders(for dummy data) Location
- src/database/seeders
+ src/public/database/seeders
 
 ## Models & Controllers
-  src/app/Models
-  src/app/Controllers
+  src/public/app/Models
+  src/public/app/Controllers
 
 ## API Routes
-src/routes/api/.php
+src/public/routes/api.php
 
-## Installation
+
+## Unit Tests
+src/public/Test
+
+
+# Installation
 
 Project is composed in Docker.
 
-## Manual Installation
+# Manual Installation
 Install Composer
 ```bash
 Install Composer
