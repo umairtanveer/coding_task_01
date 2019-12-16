@@ -36,7 +36,8 @@ laravel project files
  src/database/seeders
 
 ## Models & Controllers
-  src/app/Models
+  src/app/Models </br>
+
   src/app/Controllers
 
 ## API Routes
