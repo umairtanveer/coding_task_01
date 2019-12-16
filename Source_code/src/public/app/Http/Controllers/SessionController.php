@@ -40,7 +40,9 @@ class SessionController extends Controller
       // eloquent relationships wrinnen in models to get data
       $data['sessions'] = UserExerciseScore::orderBy('created_at','Desc')->take(15)->get();
       foreach ($data['sessions'] as $d) {
-         $d->exercise->category->name;
+        if(isset($d->exercise)){
+          $d->exercise->category->name;
+        }
       }
 
       return response()->json(['result'=>$data])->setStatusCode(Response::HTTP_OK);

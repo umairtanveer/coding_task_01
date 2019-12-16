@@ -2,26 +2,31 @@
 
 Task is completed.
 
-I used Laravel 5.7 MVC framework and OOP Concepts to write my code.
-PHP Version: 7.1.3
+I used Laravel 5.7 MVC framework and OOP Concepts to write my code.<br/>
+PHP Version: 7.1.3<br/>
 Mysql Version: 5.7.2
 
 #### Project also hosted live for easy testing
 GET Sessions Array
 ```bash
-
+http://task.softhub.zone/task01/api/sessions
 ```
 
 GET Session Detail
 ```bash
+http://task.softhub.zone/task01/api/session/detail/10
+```
 
+GET Latest Session Categories Detail
+```bash
+http://task.softhub.zone/task01/api/latest/session/categories
 ```
 
 You can test this api using Postman,Direct browser or any other service
 
 ## Files Included
-database design (jpg image)
-database sql file
+database design (jpg image)<br/>
+database sql file<br/>
 laravel project files
 
 ## Database Migrations Location
@@ -79,4 +84,7 @@ Just copy the link and run in your browser
 ```bash
 {link}/api/sessions
 {link}/api/session/detail/{id}
+
+Extra Task Link
+{link}/api/latest/session/categories
 ```
